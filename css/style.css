@@ -1,0 +1,11 @@
+#coord-bar i.fa {
+  color: #db2574;
+  padding: 10px 5px;
+  align-self: center; }
+#coord-bar i.fa:hover {
+  color: #fff; }
+#coord-bar span a {
+  color: #fff; }
+
+.home-cover {
+  height: 695px; }
