@@ -1,5 +1,6 @@
 .container, .container-fluid, .row {
-  padding: 0px !important; }
+  padding: 0px !important;
+  margin: 0px !important; }
 
 .navbar-brand {
   color: white;
@@ -9,3 +10,9 @@ h1 {
   font-family: "spectre";
   color: #fff;
   font-size: 3em; }
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand,
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: #fff; }

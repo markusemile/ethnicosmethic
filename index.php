@@ -28,20 +28,56 @@
     </div>
     <div class="container-fluid pt-0 mt-0 home-cover">
       <div class="row">
-        <div  class="col-12  parallax-window d-flex"  data-parallax="scroll" data-image-src="media/cover2.png" data-position-x="0px">
-          <div class="women1">
-            <img class="img-fluid" src="media/women1.png" alt="">
+          <div class="parallax-container">
+            <div class="home-parallax-1"></div>
+            <div class="home-parallax-2"></div>
+            <div class="home-parallax-3"></div>
           </div>
-          <div class="women2">
-            <img class="img-fluid" src="media/women2.png" alt="">
+          <div>
+            <h1 class="slogan">
+                La beauté<br>comme impératif<br>de santé !
+            </h1>
           </div>
-          <h1 class="titre01 pr-5 ml-auto text-center align-self-center pb-5">
-            La beauté<br>comme impératif<br>de santé !
-          </h1>
-        </div>  
       </div>  
     </div>
-
+    <nav class="navbar navbar-expand-sm navbar-light bg-color1">
+      <a class="navbar-brand" href="#">Ethnic-Cosmethic</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="#">Action 1</a>
+              <a class="dropdown-item" href="#">Action 2</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- section a propos  -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron">
+              <img src="media/name.png" alt="">
+          </div>
+        </div>  
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>

@@ -7,7 +7,7 @@
 
 .women2 {
   padding: 0px;
-  margin-left: -30px;
+  margin-left: -25px;
   z-index: 15 !important; }
 
 #coord-bar i.fa {
@@ -19,5 +19,45 @@
 #coord-bar span a {
   color: #fff; }
 
-.home-cover {
-  height: 684px; }
+.parallax-container {
+  padding: 0;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  background-color: red;
+  position: relative;
+  display: block; }
+
+.home-parallax-1, .home-parallax-2, .home-parallax-3, .slogan {
+  transform: translateY(0px);
+  transform: all; }
+
+.home-parallax-1 {
+  position: absolute;
+  background-image: url("../media/cover2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  overflow: hidden; }
+
+.home-parallax-2 {
+  position: absolute;
+  background-image: url("../media/women1.png");
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%; }
+
+.home-parallax-3 {
+  position: absolute;
+  left: 28vw;
+  background-image: url("../media/women2.png");
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%; }
+
+.slogan {
+  text-align: center;
+  position: absolute;
+  top: 28vh;
+  left: 60vw; }
