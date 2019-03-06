@@ -1,3 +1,11 @@
+.container, .container-fluid, .row {
+  padding: 0px !important; }
+
 .navbar-brand {
   color: white;
   padding-left: 15px; }
+
+h1 {
+  font-family: "spectre";
+  color: #fff;
+  font-size: 3em; }

@@ -18,7 +18,7 @@
   <body>
     <div id="coord-bar" class="container-fluid">
       <div class="row">
-        <div class="col-12 bg-dark-blue text-white d-flex">
+        <div class="col-12 bg-dark-blue text-white d-flex pr-5 pl-5">
           <span><a href="https://www.facebook.com/EthnicCosmethic1/" class="falink"><i class="fa fa-facebook fa-2x" data-toggle="tooltip" data-placement="bottom" title="Facebook"></i></a></span>
           <span><a href="https://www.linkedin.com/company/ethnic-cosmethic-belgium" target="_blank" ><i class="fa fa-linkedin fa-2x custom-tooltip" data-toggle="tooltip"  data-placement="left" title="Linkedin"></i></a></span>
           <span class="ml-auto d-flex align-items-center"><i class="fa fa-envelope fa-2x"></i><a href="mailto:info@ethnic-cosmethic.be">info@ethnic-cosmethic.be</a></span>
@@ -26,10 +26,18 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid pt-0 mt-0 home-cover">
       <div class="row">
-        <div  class="col-12 home-cover parallax-window"  data-parallax="scroll" data-image-src="media/cover.png" data-position-x="0px">
-          dfsfsd
+        <div  class="col-12  parallax-window d-flex"  data-parallax="scroll" data-image-src="media/cover2.png" data-position-x="0px">
+          <div class="women1">
+            <img class="img-fluid" src="media/women1.png" alt="">
+          </div>
+          <div class="women2">
+            <img class="img-fluid" src="media/women2.png" alt="">
+          </div>
+          <h1 class="titre01 pr-5 ml-auto text-center align-self-center pb-5">
+            La beauté<br>comme impératif<br>de santé !
+          </h1>
         </div>  
       </div>  
     </div>
