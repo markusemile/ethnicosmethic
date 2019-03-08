@@ -8,11 +8,5 @@ function scrollFunc() {
 
     var $backBird = document.getElementsByClassName('home-parallax-2')[0];
     $backBird.style.transform = 'translateY(' + windowScroll / 6 + '%)';
-
-    var $foreBird = document.getElementsByClassName('home-parallax-3')[0];
-    $foreBird.style.transform = 'translateY(-' + windowScroll / 6 + '%)';
-
-    var $foreBird = document.getElementsByClassName('slogan')[0];
-    $foreBird.style.transform = 'translateY(' + windowScroll / 4 + '%)';
-
+    $backBird.style.opacity = 0;
 }

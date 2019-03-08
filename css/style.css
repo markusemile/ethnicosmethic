@@ -24,12 +24,17 @@
   width: 100%;
   height: 80vh;
   overflow: hidden;
-  background-color: red;
   position: relative;
   display: block; }
 
-.home-parallax-1, .home-parallax-2, .home-parallax-3, .slogan {
+.home-parallax-1,
+.home-parallax-2,
+.home-parallax-3,
+.home-parallax-4,
+.home-parallax-5,
+.slogan {
   transform: translateY(0px);
+  opacity: 1;
   transform: all; }
 
 .home-parallax-1 {
@@ -61,3 +66,33 @@
   position: absolute;
   top: 28vh;
   left: 60vw; }
+
+.card-group .card {
+  text-align: center; }
+.card-group .fa {
+  color: red; }
+
+.section-mag .jumbotron {
+  position: relative;
+  width: 100%;
+  color: #000;
+  text-align: center; }
+
+.home-parallax-4 {
+  position: absolute;
+  left: 0w;
+  background-image: url("../media/mag-parallax.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%; }
+
+.home-parallax-5 {
+  position: absolute;
+  left: 40vw;
+  top: -38vh;
+  background-image: url("../media/mag.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  height: 80vh;
+  width: 100%; }
